@@ -4,6 +4,10 @@
 
 .button{
     border-radius: 20px !important;
-    border: 2px gray solid !important;
+    border: 2px rgba(147, 145, 145, 0.746) solid !important;
     margin-Left: 10px !important;
+}
+
+.button:hover{
+    border: 2px rgb(7, 181, 255) solid !important;
 }
