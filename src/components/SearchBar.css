@@ -1,0 +1,9 @@
+.ui.icon.input{
+    width : 100%;
+}
+
+.button{
+    border-radius: 20px !important;
+    border: 2px gray solid !important;
+    margin-Left: 10px !important;
+}
