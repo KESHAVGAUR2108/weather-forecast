@@ -10,7 +10,7 @@ const Graph = (props) => {
 
     return (
         <div>
-            <Sparklines data={props.data} height={70} width={170} >
+            <Sparklines data={props.data} height={80} width={170} >
                 <SparklinesLine color={props.color} />
                 <SparklinesReferenceLine type='avg' />
             </Sparklines>

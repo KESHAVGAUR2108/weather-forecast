@@ -1,7 +1,5 @@
 import React, { createRef } from 'react';
 
-const google = window.google;
-
 class GoogleMap extends React.Component{
 
     constructor(props){
@@ -13,12 +11,12 @@ class GoogleMap extends React.Component{
     componentDidMount = () => {
         const coord = { lat:this.props.lat, lng: this.props.lon };
 
-        const map = new google.maps.Map(this.callRef.current, {
+        const map = new window.google.maps.Map(this.callRef.current, {
           zoom: 12,
           center: coord,
         });
 
-        const marker = new google.maps.Marker({
+        new window.google.maps.Marker({
             position: coord,
             map: map,
         });
